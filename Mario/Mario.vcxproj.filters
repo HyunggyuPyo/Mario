@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Round01.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Round02.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Round03.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Play.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Play02.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Play03.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBlock.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomBlock.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Print.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Round01.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Round02.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Round03.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Play.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Play02.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Play03.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBlock.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomBlock.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Print.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui.h">
+      <Filter>System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object">
+      <UniqueIdentifier>{af9287e3-07fa-4e74-b2d1-322f64c4ffbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e2ee306b-b5f3-4985-be74-5ffd7e5e366e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{e6f8e4e1-45eb-44b4-b366-2779feacf428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BGM">
+      <UniqueIdentifier>{c109ecd9-638d-4dd1-85c5-50805356b06a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="MarioBGM.wav">
+      <Filter>BGM</Filter>
+    </Media>
+    <Media Include="GameOver.wav">
+      <Filter>BGM</Filter>
+    </Media>
+    <Media Include="RoundClear.wav">
+      <Filter>BGM</Filter>
+    </Media>
+    <Media Include="MarioHit.wav">
+      <Filter>BGM</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
